@@ -1,0 +1,51 @@
+{
+  "name": "sihrong-package-demo",
+  "version": "0.1.15",
+  "description": "npm package 上傳 demo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview",
+    "push": "git push && npm publish"
+  },
+  "type": "module",
+  "main": "dist/package-demo.cjs.js",
+  "module": "dist/package-demo.es.js",
+  "unpkg": "dist/package-demo.life.js",
+  "files": [
+    "dist"
+  ],
+  "author": "D cheng <https://github.com/Cheng-sih-rong/> (https://github.com/Cheng-sih-rong/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheng-sih-rong/package-demo"
+  },
+  "bugs": {
+    "url": "https://github.com/Cheng-sih-rong/package-demo/issues"
+  },
+  "homepage": "https://github.com/Cheng-sih-rong/package-demo",
+  "dependencies": {
+    "@unocss/reset": "^0.55.2",
+    "@vueuse/core": "^10.3.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^0.53.6",
+    "@unocss/preset-uno": "^0.53.6",
+    "@unocss/preset-wind": "^0.53.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.66.0",
+    "unocss": "^0.53.6",
+    "vite": "^4.3.9"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vue3",
+    "vite",
+    "components",
+    "ui"
+  ]
+}
