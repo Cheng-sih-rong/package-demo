@@ -1,6 +1,6 @@
 {
   "name": "sihrong-package-demo",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "npm package 上傳 demo",
   "scripts": {
     "dev": "vite",
